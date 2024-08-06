@@ -8,7 +8,7 @@ import re
 app = Flask(__name__)
 
 # Gemini API 키 설정
-genai.configure(api_key="AIzaSyCHNkjeXb8TNnXT4DKlIbI4GMdP0y_AHWo")
+genai.configure(api_key="api_key=config.API_KEY")
 
 # 모델 생성
 generation_config = {
@@ -33,7 +33,8 @@ def index():
 
 @app.route('/summarize', methods=['POST'])
 def summarize():
-    input_text = request.form['input_text']
+    input_text = request.form['input_text'
+                              ]
     chat_session = model.start_chat(history=[])
     response = chat_session.send_message(input_text)
     summarized_text = convert_to_bold(response.text)
