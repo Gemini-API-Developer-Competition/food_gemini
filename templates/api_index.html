@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>사업자 번호 인증</title>
+</head>
+<body>
+    <h1>사업자 번호 인증</h1>
+    <form action="/api/verify" method="post">
+        <label for="business_number">사업자 번호:</label>
+        <input type="text" id="business_number" name="business_number" required>
+        <button type="submit">인증</button>
+    </form>
+</body>
+</html>

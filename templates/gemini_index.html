@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>음식점 게시판 글 요약</title>
+</head>
+<body>
+    <h1>음식점 게시판 글 요약</h1>
+    <form action="/api/gemini" method="post">
+        <label for="input_text">음식점 사장님의 입력:</label>
+        <textarea id="input_text" name="input_text" rows="4" cols="50"></textarea>
+        <br><br>
+        <input type="submit" value="요약 생성">
+    </form>
+</body>
+</html>

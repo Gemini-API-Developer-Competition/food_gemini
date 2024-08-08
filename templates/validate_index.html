@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>사업자 정보 진위확인</title>
+</head>
+<body>
+    <h1>사업자 정보 진위확인</h1>
+    <form action="/api/validate" method="post">
+        <label for="business_number">사업자 번호:</label>
+        <input type="text" id="business_number" name="business_number" required><br>
+        <label for="start_date">시작 날짜 (YYYYMMDD):</label>
+        <input type="text" id="start_date" name="start_date"><br>
+        <label for="p_nm">대표자명:</label>
+        <input type="text" id="p_nm" name="p_nm"><br>
+        <label for="p_nm2">대표자명2:</label>
+        <input type="text" id="p_nm2" name="p_nm2"><br>
+        <label for="b_nm">상호:</label>
+        <input type="text" id="b_nm" name="b_nm"><br>
+        <label for="corp_no">법인등록번호:</label>
+        <input type="text" id="corp_no" name="corp_no"><br>
+        <label for="b_sector">업종:</label>
+        <input type="text" id="b_sector" name="b_sector"><br>
+        <label for="b_type">업태:</label>
+        <input type="text" id="b_type" name="b_type"><br>
+        <label for="b_adr">주소:</label>
+        <input type="text" id="b_adr" name="b_adr"><br>
+        <button type="submit">확인</button>
+    </form>
+</body>
+</html>
