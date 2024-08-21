@@ -10,7 +10,7 @@
 - Gemini 모델을 **Fine-Tuning**하여 구현되었습니다.
 - 음식점 이름, 간단한 음식 소개, 음식 종류, 전화번호를 입력하면 자동으로 게시판 글이 생성됩니다.
 - 예시: 아래와 같이 게시판 글이 생성됩니다.  
-  ![게시판 생성 예시](https://github.com/user-attachments/assets/461cf23c-9bf1-4192-be0d-7d370e1a8658)  
+  ![게시판 생성 예시](https://github.com/user-attachments/assets/2ec0fe10-464d-4f58-a350-2e979ae3ac39)  
   ![게시판 생성 예시 2](https://github.com/user-attachments/assets/24f14335-290a-40b4-a4a3-34fcd5690712)
 
 ### 3. 사업자등록정보 확인 (공공데이터 포털)
