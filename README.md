@@ -32,7 +32,6 @@
 
 - **jsonl 파일 형식 오류**  
   테스트에서 제공하는 데이터셋과 같이 `message`, `role`, `content`, `role`, `content` 형식으로 변경하여 문제를 해결하였습니다.  
-  ![JSONL 파일 형식](https://prod-files-secure.s3.us-west-2.amazonaws.com/b5e4d902-d8f0-45cc-a009-efc4bef6bf3b/29884ec0-d424-47ae-9b29-39e3f424b9b3/Untitled.png)
 
 - **Google SDK 관련 오류**  
   Google SDK를 다운로드한 후 진행하여 에러를 해결하였습니다.
