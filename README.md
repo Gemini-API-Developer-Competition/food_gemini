@@ -18,6 +18,8 @@
 - [공공데이터 포털 API 링크](https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15081808)
 - 확인 후 회원가입을 진행합니다.  
   ![사업자 확인 예시](https://github.com/user-attachments/assets/52b93c55-ae79-4dc0-b6a7-db6d804af930)
+  ![image](https://github.com/user-attachments/assets/91e31c8d-cd33-44be-945c-9cf0bb463dca)
+
 
 ### 4. Firebase 배포
 - Firebase Functions를 통해 API가 배포되었습니다.
